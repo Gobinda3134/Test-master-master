@@ -18,7 +18,7 @@ public class Testing {
     public void testlogin()
     {
         testing arithmetic=new testing();
-        String expectedResult="Login successfully";
+        String expectedResult="";
         String actualResult=arithmetic.login("username", "password");
         assertEquals(expectedResult, actualResult);
 
