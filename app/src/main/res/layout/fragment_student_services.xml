@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Softwarica Open Day and IOT Exhibition 2019"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/softwarica"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/first"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Ten things you can do after 10+2/A+Level Exams"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/ten"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/sec"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Softwarica accepting students of Science, Management and Humanities in BSc(Hons) Degree"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/accepting"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/th" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Experience of Certified Scrum Developer (CSD)"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/exp"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/fo"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Project of 1st batch of Softwarica College students"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/project"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/fi"/>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Participation in Regional scrum gathering Nepal (RSGN 2018)"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/par"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/six"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Collaborative Academic Partnership Launch"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/project"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/sev"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.CardView>

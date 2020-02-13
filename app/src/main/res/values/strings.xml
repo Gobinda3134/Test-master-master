@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">E-Softwarica</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_staff">Staff Details</string>
+    <string name="menu_programme">Programme</string>
+    <string name="menu_student">Student Services</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_websites">Our Websites</string>
+    <string name="menu_college">About College</string>
+    <string name="menu_developer">Developer</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_club">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="gov">Softwarica College</string>
+    <string name="ministry">College of IT and E-commerce</string>
+    <string name="pta_name">Pure IT College</string>
+    <string name="pta_email2">www.softwarica.edu.np</string>
+    <string name="copyright">&#169; 2017 PTA. All Rights Reserved.</string>
+    <string name="powered">Powered By : Erasoft Solution</string>
+    <string name="onwards">onwards</string>
+
+    <string name="pta_address">Mahakabi Marg, Dillibazar, Kathmandu</string>
+    <string name="phone_text">Phone No: </string>
+    <string name="landline_text">LandLine: </string>
+    <string name="email">Email:</string>
+    <string name="primary_text">Primary Email: </string>
+    <string name="secondary_text">Secondary Email: </string>
+    <string name="fax_text">P.O.Box: </string>
+    <string name="pta_phone">+977-1-4441577</string>
+    <string name="pta_land">4425661</string>
+    <string name="pta_fax">8975, EPC 5702</string>
+    <string name="pta_email">info@softwarica.edu.np</string>
+    <string name="pta_email1">ptanepal@hotmail.com </string>
+    <string name="website_text">Website: </string>
+    <string name="pta_website">www.softwarica.edu.np</string>
+
+    <string name="short_des">He is senior Developer in college.</string>
+
+    <string name="short_dess">He is counselor at college.</string>
+    <string name="short_desss">He is Windows developers.</string>
+    <string name="short_dessss">He is also developers in database and mysql.</string>
+    <string name="short_desssss">He is senior programmer and senior in oracle database.</string>
+    <string name="short_dessssss">He is senior in programmer and android developer.</string>
+    <string name="short_desssssss">He is as a developer and programmer.</string>
+
+
+    <string name="university">University Partner</string>
+    <string name="pta_about">Coventry University is a dynamic, global and transformational ‘Modern University’ whose roots can
+        be traced back to 1843 to the Coventry School of Design. With a proud tradition as a provider of innovative teaching and
+        learning and a focus on impactful research, the university has established a robust reputation for pushing the boundaries
+        of higher education regionally, nationally and across the world.\n
+    \n In recent years Coventry’s student satisfaction levels and teaching quality have been rated amongst the best in the UK, which
+        in turn has led to impressive rises in every major university league table.
+
+    </string>
+
+    <string name="softwarica">There are millions of creative minds with many ideas constantly popping in their head. However, many of the times, the ideas just remain ideas, with no further life instilled to them. A creative mind requires the motivation of an enthusiastic body, a supportive team, the willingness to transform their ideas into a new innovation and […]</string>
+    <string name="ten">Things might look confusing after you finish your 12th grade board exams. It  is the end of ‘high school’ and now you enter the realm of adulting, where everything seems fast-paced and intimidating. Here’s a thought – don’t think too much into it. Most adults you meet are winging it and probably don’t have much […]</string>
+    <string name="accepting">It is quite daunting to choose a career path as soon as you cross the well-known “iron-gate”. This is the first BIG decision you are going to make for yourself and it’s definitely not easy. Aside from the confusions and pressure created by the people around you, you might also be scared that this one […]</string>
+    <string name="exp">The Certified Scrum Developer is a five (5) days training and certification course provided by scrum alliance, that was organized by Agile Nepal on DEC 12-16, 2018, In Hotel Manang. I took my CSD training where I was coached by Mr. M. Mizanur Rahman along with 30 Participants from several IT companies. I did not […]</string>
+    <string name="project">Givemegoal.com is a sports portal that provides information on different major League games and International country matches including English Premier League , Spanish La Liga , German Bundesliga , Italian Series A, etc. The project was started in the year 2012 by the First batch of Softwarica College students and officially launched on the Valentines […]</string>
+    <string name="par">Regional scrum gathering was recently held in Nepal on Dec 08-09,2018. The event was organized by Agile Nepal. The regional scrum gathering is an event where people can meet scrum practitioners, trainers, coaches and enthusiasts. Where we can acquire knowledge about the current trend around world. The two-day conference came with the bundle of sessions […]</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">Map</string>
+</resources>

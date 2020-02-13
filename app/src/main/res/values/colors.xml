@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d47a1</color>
+    <color name="colorPrimaryDark">#4b6896</color>
+    <color name="colorAccent">#2957a4</color>
+    <color name="blue">#0d47a1</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#009688</color>
+    <color name="last">#4b6896</color>
+    <color name="third">#b31b88</color>
+    <color name="first">#088208</color>
+
+    <color name="login">#2957a4</color>
+    <color name="forget_bg">#FFE4F5FD</color>
+    <color name="appbar_bg">#00a8e9</color>
+    <color name="bg">#FFF6FCFE</color>
+    <color name="line">#d2d3d5</color>
+    <color name="black">#000</color>
+    <color name="examtabletext">#FFF7FCFE</color>
+    <color name="snack">#673AB7</color>
+
+    <color name="back">#b3e5fc</color>
+    <color name="red">#ef5350</color>
+
+    <color name="light_gery">#D3D3D3</color>
+    <color name="button_color">#d67601</color>
+</resources>

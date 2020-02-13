@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/staff"
+            android:title="Staff Details"
+            />
+        <item
+            android:id="@+id/nav_programme"
+            android:icon="@drawable/programme"
+            android:title="Programme" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="Students Services" />
+        <item
+            android:id="@+id/nav_websites"
+            android:icon="@drawable/website"
+            android:title="Our Websites" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_college"
+            android:icon="@drawable/college"
+            android:title="About College" />
+        <item
+            android:id="@+id/nav_developer"
+            android:icon="@drawable/developer"
+            android:title="Developer" />
+    </group>
+
+
+</menu>
