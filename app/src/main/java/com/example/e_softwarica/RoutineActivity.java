@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import com.example.e_softwarica.adapter.AssignmentAdapter;
 import com.example.e_softwarica.adapter.NoticeAdapter;
+import com.example.e_softwarica.adapter.RoutineAdapter;
 import com.example.e_softwarica.api.API;
 import com.example.e_softwarica.model.AssignmentReceiveParams;
 import com.example.e_softwarica.model.NoticeReceiveParams;
@@ -31,14 +32,14 @@ public class RoutineActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     CoordinatorLayout coordinatorLayout;
     private RecyclerView recyclerView;
-    private NoticeAdapter adapter;
-    private ArrayList<NoticeReceiveParams.NoticeBean> event_list = new ArrayList<>();
+    private RoutineAdapter adapter;
+    private ArrayList<RoutineReceiveParams.RoutineBean> routine_list = new ArrayList<>();
     private static final String TAG = "RoutineActivity";
 
     @Override
     protected void onCreate(Bundle b) {
         super.onCreate(b);
-        setContentView(R.layout.activity_news);
+        setContentView(R.layout.activity_routine);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -51,7 +52,7 @@ public class RoutineActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        recyclerView = (RecyclerView) findViewById(R.id.news_recycler_view);
+        recyclerView = (RecyclerView) findViewById(R.id.routine_recycler_view);
         recyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutmanager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutmanager);
@@ -71,7 +72,7 @@ public class RoutineActivity extends AppCompatActivity {
     public void loadJSON() {
 
         API ptaInterface = ServiceGenerator.createRequestGsonMITRA(API.class);
-        Call<NoticeReceiveParams> call = ptaInterface.getAllNotice();
+        Call<RoutineReceiveParams> call = ptaInterface.getAllRoutine();
 
         progressDialog = new ProgressDialog(RoutineActivity.this);
         progressDialog.setMessage("Loading Routine....");
@@ -79,18 +80,18 @@ public class RoutineActivity extends AppCompatActivity {
         progressDialog.setCancelable(true);
         progressDialog.show();
 
-        call.enqueue(new Callback<NoticeReceiveParams>() {
+        call.enqueue(new Callback<RoutineReceiveParams>() {
             @Override
-            public void onResponse(Call<NoticeReceiveParams> call, Response<NoticeReceiveParams> response) {
-                final NoticeReceiveParams allnotice = response.body();
-                event_list = new ArrayList<>(allnotice.getNotice());
-                adapter = new NoticeAdapter(event_list, getApplicationContext());
+            public void onResponse(Call<RoutineReceiveParams> call, Response<RoutineReceiveParams> response) {
+                final RoutineReceiveParams allroutine = response.body();
+                routine_list = new ArrayList<>(allroutine.getRoutine());
+                adapter = new RoutineAdapter(routine_list, getApplicationContext());
                 recyclerView.setAdapter(adapter);
                 progressDialog.dismiss();
             }
 
             @Override
-            public void onFailure(Call<NoticeReceiveParams> call, Throwable t) {
+            public void onFailure(Call<RoutineReceiveParams> call, Throwable t) {
                 Log.d(TAG, "onFailure: ");
                 if (progressDialog != null && progressDialog.isShowing()) {
                     progressDialog.dismiss();

@@ -4,17 +4,19 @@ import java.util.List;
 
 public class RoutineReceiveParams {
 
-    private List<NoticeReceiveParams.NoticeBean> notice;
+    private List<RoutineBean> routine;
 
-    public List<NoticeReceiveParams.NoticeBean> getNotice() {
-        return notice;
+    public List<RoutineBean> getRoutine() {
+        return routine;
     }
 
-    public void setNotice(List<NoticeReceiveParams.NoticeBean> notice) {
-        this.notice = notice;
+    public void setNotice(List<RoutineBean> notice) {
+        this.routine = routine;
     }
 
-    public static class NoticeBean {
+    public static class RoutineBean {
+
+
         /**
          * notice_id : 2
          * notice_title : test
@@ -22,41 +24,41 @@ public class RoutineReceiveParams {
          * notice_url : https://esoftwaricabisu.000webhostapp.com/backend/download/Assignment-Presenation-Guideline.pdf
          */
 
-        private String notice_id;
-        private String notice_title;
-        private String notice_date;
-        private String notice_url;
+        private String routine_id;
+        private String college_batch;
+        private String file_name;
+        private String noticeurl;
 
-        public String getNotice_id() {
-            return notice_id;
+        public String getRoutine_id() {
+            return routine_id;
         }
 
-        public void setNotice_id(String notice_id) {
-            this.notice_id = notice_id;
+        public void setRoutine_id(String routine_id) {
+            this.routine_id = routine_id;
         }
 
-        public String getNotice_title() {
-            return notice_title;
+        public String getCollege_batch() {
+            return college_batch;
         }
 
-        public void setNotice_title(String notice_title) {
-            this.notice_title = notice_title;
+        public void setCollege_batch(String college_batch) {
+            this.college_batch = college_batch;
         }
 
-        public String getNotice_date() {
-            return notice_date;
+        public String getFile_name() {
+            return file_name;
         }
 
-        public void setNotice_date(String notice_date) {
-            this.notice_date = notice_date;
+        public void setFile_name(String file_name) {
+            this.file_name = file_name;
         }
 
-        public String getNotice_url() {
-            return notice_url;
+        public String getNoticeurl() {
+            return noticeurl;
         }
 
-        public void setNotice_url(String notice_url) {
-            this.notice_url = notice_url;
+        public void setNoticeurl(String noticeurl) {
+            this.noticeurl = noticeurl;
         }
     }
 }

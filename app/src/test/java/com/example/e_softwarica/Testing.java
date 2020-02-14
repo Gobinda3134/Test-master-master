@@ -17,7 +17,10 @@ public class Testing {
     @Test
     public void testlogin()
     {
-       
+        testing arithmetic=new testing();
+        String expectedResult="Login successfully";
+        String actualResult=arithmetic.login("ADMIN", "PASSWORD");
+        assertEquals(expectedResult, actualResult);
 
     }
 

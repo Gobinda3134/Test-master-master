@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ServiceGenerator {
 
-    public static final String API = "https://esoftwaricabisu.000webhostapp.com/backend/api/records/";
+    public static final String API = "http://digitalsoftwarica.000webhostapp.com/api/records/";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 
