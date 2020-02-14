@@ -27,7 +27,7 @@
                 android:text="@string/pta_about"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:id="@+id/txtAbout"/>
+                android:id="@+id/"/>
 
             <WebView
                 android:layout_width="match_parent"
