@@ -26,7 +26,12 @@ public class AssignmentReceiveParams {
          * assignmenturl : https://esoftwaricabisu.000webhostapp.com/backend/download/Web API Project Proposal.pdf
          */
 
-       
+        private String assignment_id;
+        private String assignment_subject;
+        private String assignment_year;
+        private String assignment_deadline;
+        private String assignment_cycle;
+        private String assignmenturl;
 
         public String getAssignment_id() {
             return assignment_id;
