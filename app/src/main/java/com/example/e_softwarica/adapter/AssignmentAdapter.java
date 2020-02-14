@@ -56,7 +56,7 @@ public class AssignmentAdapter extends RecyclerView.Adapter<AssignmentAdapter.Vi
                 Intent in=new Intent(v.getContext(), AssignmentDescriptionActivity.class);
 
                 in.putExtra("obj",pos);
-                v.getContext().startActivity();
+                v.getContext().startActivity(in);
             }
         });
 
