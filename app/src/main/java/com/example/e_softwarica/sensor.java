@@ -12,14 +12,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class sensor extends AppCompatActivity {
-private Button btna;
+private Button btns;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor);
-        btna=findViewById(R.id.btna);
+        btns=findViewById(R.id.btna);
 
-        btna.setOnClickListener(new View.OnClickListener() {
+        btns.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(sensor.this, LoginActivity.class);
