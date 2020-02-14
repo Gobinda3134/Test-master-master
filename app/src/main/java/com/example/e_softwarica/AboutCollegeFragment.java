@@ -15,7 +15,7 @@ import android.webkit.WebView;
 public class AboutCollegeFragment extends Fragment {
     View rootView;
     WebView webView;
-    String URL = "https://www.google.com/maps/place/Softwarica+College+Of+IT+%26+E-Commerce/@27.7061997,85.3278456,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb190a74aa1f23:0x74ebef82ad0e5c15!8m2!3d27.706195!4d85.3300396";
+    String College_Url = "https://www.google.com/maps/place/Softwarica+College+Of+IT+%26+E-Commerce/@27.7061997,85.3278456,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb190a74aa1f23:0x74ebef82ad0e5c15!8m2!3d27.706195!4d85.3300396";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle b) {
@@ -25,7 +25,7 @@ public class AboutCollegeFragment extends Fragment {
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webView.loadUrl(URL);
+        webView.loadUrl(College_Url);
 
         return rootView;
     }
