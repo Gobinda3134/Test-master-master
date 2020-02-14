@@ -23,7 +23,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="Assignment"
+                android:text=""
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
