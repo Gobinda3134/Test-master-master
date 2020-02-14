@@ -31,7 +31,7 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
     @Override
     public void onAuthenticationError(int errorCode, CharSequence errString) {
 
-        this.update("There was an Auth Error. " + errString, false);
+        this.update("Error. " + errString, false);
 
     }
 
