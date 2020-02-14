@@ -1,9 +1,9 @@
 package com.example.e_softwarica;
 
 public class testing {
-    public String login(String username, String password)
+    public String login(String Username, String Password)
     {
-        return username+password;
+        return Username+Password;
     }
 
 
