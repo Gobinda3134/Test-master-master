@@ -209,7 +209,7 @@
                 android:textSize="18sp"
                 android:gravity="center_horizontal"
                 android:id="@+id/pta_email"
-                android:clickable=
+                android:clickable="true"
                 android:layout_below="@+id/line3"
                 android:layout_marginTop="10sp"
                 android:autoLink="email"
