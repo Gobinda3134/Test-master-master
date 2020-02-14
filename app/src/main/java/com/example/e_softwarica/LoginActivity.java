@@ -132,8 +132,8 @@ public class LoginActivity extends AppCompatActivity {
     private void DisplayNotification() {
         Notification notification= new NotificationCompat.Builder(this, CreateChannel.CHANNEL_1)
                 .setSmallIcon(R.drawable.notices)
-                .setContentTitle("Welcome to softwarica")
-                .setContentText("Login Successfully!!")
+                .setContentTitle("Welcome to Digital Softwarica")
+                .setContentText("Be happy You are logged in!!")
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE).build();
 
         notificationManagerCompat.notify(1, notification);
