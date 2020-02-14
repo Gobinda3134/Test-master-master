@@ -11,13 +11,13 @@ import retrofit2.http.POST;
 
 public interface API {
 
-    @POST("allassignment.php")
+    @POST("")
     Call<AssignmentReceiveParams> getAllAssignment();
 
-    @POST("allnotice.php")
+    @POST("")
     Call<NoticeReceiveParams> getAllNotice();
 
-    @POST("allroutine.php")
+    @POST("")
     Call<RoutineReceiveParams> getAllRoutine();
 
 
