@@ -17,12 +17,6 @@ public class RoutineReceiveParams {
     public static class RoutineBean {
 
 
-        /**
-         * notice_id : 2
-         * notice_title : test
-         * notice_date : 2057/5/8
-         * notice_url : https://esoftwaricabisu.000webhostapp.com/backend/download/Assignment-Presenation-Guideline.pdf
-         */
 
         private String routine_id;
         private String college_batch;

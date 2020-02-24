@@ -16,12 +16,7 @@ public class NewsReceiveParams implements Serializable {
     }
 
     public static class NoticeBean {
-        /**
-         * notice_id : 2
-         * notice_title : test
-         * notice_date : 2057/5/8
-         * notice_url : https://esoftwaricabisu.000webhostapp.com/backend/download/Assignment-Presenation-Guideline.pdf
-         */
+
 
         private String notice_id;
         private String notice_title;

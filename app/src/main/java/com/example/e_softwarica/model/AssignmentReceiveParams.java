@@ -17,14 +17,7 @@ public class AssignmentReceiveParams {
     }
 
     public static class AssignmentBean implements Serializable {
-        /**
-         * assignment_id : 3
-         * assignment_subject : ddoocp
-         * assignment_year : 2019
-         * assignment_deadline : 2019/05/05
-         * assignment_cycle : september
-         * assignmenturl : https://esoftwaricabisu.000webhostapp.com/backend/download/Web API Project Proposal.pdf
-         */
+
 
         private String assignment_id;
         private String assignment_subject;

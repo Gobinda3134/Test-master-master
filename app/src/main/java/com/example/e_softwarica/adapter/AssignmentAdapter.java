@@ -37,6 +37,7 @@ public class AssignmentAdapter extends RecyclerView.Adapter<AssignmentAdapter.Vi
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_assignment_single_item,parent,false);
         AssignmentAdapter.ViewHolder holder=new AssignmentAdapter.ViewHolder(view);
         return holder;
+
     }
 
     @Override
@@ -65,12 +66,12 @@ public class AssignmentAdapter extends RecyclerView.Adapter<AssignmentAdapter.Vi
             public void onClick(View v) {
                 String pdfURL = pos.getAssignmenturl();
 
-                    Toast.makeText(
-                            context,
-                            "User Cannot Download PDF",
-                            Toast.LENGTH_SHORT).show();
+                Toast.makeText(
+                        context,
+                        "User Cannot Download PDF",
+                        Toast.LENGTH_SHORT).show();
 
-              }
+            }
         });
 
        /* holder.itemView.setOnClickListener(new View.OnClickListener() {

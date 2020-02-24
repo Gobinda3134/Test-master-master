@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.e_softwarica.adapter.AssignmentAdapter;
@@ -29,7 +30,7 @@ public class AssignmentActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     CoordinatorLayout coordinatorLayout;
     private RecyclerView recyclerView;
-    private AssignmentAdapter adapter;
+    private AssignmentAdapter assignmentAdapter;
     private ArrayList<AssignmentReceiveParams.AssignmentBean> event_list = new ArrayList<>();
     private static final String TAG = "AssignmentActivity";
 
@@ -38,7 +39,6 @@ public class AssignmentActivity extends AppCompatActivity {
     {
         super.onCreate(b);
         setContentView(R.layout.activity_assignmemt);
-
         Toolbar toolbar=(Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -52,8 +52,11 @@ public class AssignmentActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.assignment_recycler_view);
         recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager layoutmanager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(layoutmanager);
+        LinearLayoutManager llm = new LinearLayoutManager(this);
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        recyclerView.setLayoutManager(llm);
+        /*RecyclerView.LayoutManager layoutmanager = new LinearLayoutManager(getApplicationContext());
+        recyclerView.setLayoutManager(layoutmanager);*/
 
        // loadJSON();
 
@@ -72,7 +75,6 @@ public class AssignmentActivity extends AppCompatActivity {
 
         API ptaInterface= ServiceGenerator.createRequestGsonMITRA(API.class);
         Call<AssignmentReceiveParams> call=ptaInterface.getAllAssignment();
-
        progressDialog = new ProgressDialog(AssignmentActivity.this);
         progressDialog.setMessage("Loading Assignment....");
         //  progressDialog.setIndeterminate(true);
@@ -84,14 +86,17 @@ public class AssignmentActivity extends AppCompatActivity {
             public void onResponse(Call<AssignmentReceiveParams> call, Response<AssignmentReceiveParams> response) {
                 final AssignmentReceiveParams allevents=response.body();
                 event_list=new ArrayList<>(allevents.getAssignment());
-                adapter=new AssignmentAdapter(event_list,getApplicationContext());
-                recyclerView.setAdapter(adapter);
+                assignmentAdapter=new AssignmentAdapter(event_list,getApplicationContext());
+                recyclerView.setAdapter(assignmentAdapter);
                 progressDialog.dismiss();
             }
 
             @Override
             public void onFailure(Call<AssignmentReceiveParams> call, Throwable t) {
-                Log.d(TAG, "onFailure: ");
+
+
+                Log.d(TAG, "onFailure: " +t.toString());
+
                 if(progressDialog!= null && progressDialog.isShowing()){
                     progressDialog.dismiss();
                 }

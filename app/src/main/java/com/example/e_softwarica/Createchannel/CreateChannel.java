@@ -8,7 +8,6 @@ import android.os.Build;
 public class CreateChannel {
     Context context;
     public final static String CHANNEL_1="channel1";
-    public final static String CHANNEL_2="channel2";
 
     public CreateChannel(Context context) {
         this.context = context;
